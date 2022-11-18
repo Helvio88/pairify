@@ -9,6 +9,6 @@ describe('bar', () => {
 
     it('async function returns true', async () => {
         const result = await asyncTrue();
-        expect(result).to.be.true;
+        expect(result).to.be.false;
     });
 });
